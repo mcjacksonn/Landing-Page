@@ -1,0 +1,27 @@
+*{
+    color: white;
+    background: navy;
+    font-family: roboto;  
+    border: 200px red;
+    
+}
+.Title{
+    background-color: white;
+}
+
+.quote{
+    padding: 200x
+    text-align: center;
+    background-color: grey;
+    magin-bottom: 50px;
+    
+
+}
+.top{
+    background-color: hotpink;
+}
+
+#img {
+    width: 300px;
+    height: 300pxs;
+}
