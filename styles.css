@@ -1,11 +1,16 @@
 .flex-container{
     display: flex;
-    flex-direction: row;
+    padding: 0px 100px 0px 0px;
+    margin-left: auto;
     gap: 5px;
-    justify-content: flex-end;
-    margin-right:75px;
-    
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'roboto';
 }
+  
+
 .action{
     background-color: #3882f6;
     margin: 75px;
@@ -16,10 +21,46 @@
     justify-content: space-between;
     
 }
+.aussie-logo{
+    margin-right: auto
+    width: 90px;
+    heaight: 90px;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+}
+.aussie{
+    display: flex;
+    background-color: #1F2937;
+    justify-content:center
+    align-items: center;
+    color: #f9faf8;
+    padding: 100px;
+}
+.pup{
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+
+}
+
 .buttons{
     display: flex;
     justify-content: ;
     align-items: center;
+}
+.aussie-1{
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+    flex-basis: 450px;
+    text-align: left;
+    font-family: 'roboto';
+    opacity: 0.9;
+
 }
 .join-section{
     display: flex;
@@ -28,4 +69,34 @@
     margin: 128px auto;
     max-width: 1100px;
 
+}
+.buttons{
+    flex-shrink: 0;
+}
+.aussie button{
+    display:block;
+    border: none;
+    text-align: center;
+    background: #3882f6;
+    width: 115px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'roboto';
+    color: white;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'roboto';
+    background-color: white;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0px;
+    font-family: 'roboto';
+    colo: #f9faf8;
 }
