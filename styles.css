@@ -93,10 +93,75 @@ body{
     font-family: 'roboto';
     background-color: white;
 }
+.quote q {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'roboto'
+}
+.quote p {
+    padding-bottom: 23px;
+    padding-right: 13px;
+    text-align: right;
+    font-family: 'roboto'
+}
 h1{
     font-weight: bold;
     font-size: 48px;
     margin: 0px;
     font-family: 'roboto';
-    colo: #f9faf8;
+    color: #f9faf8;
+}
+.title{
+    align-items: center;
+}
+.action{
+    display: flex;
+    background-color: #3882f6;
+    padding: 14px 83px;
+    border-radius: 7px;
+    margin: 50px 200px;
+    align-items: center
+    border-color: none
+    border-radius: 7px;
+
+}
+.title-stuff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    border: 6px solod #3882f6;
+    border-radius: 20px;
+    magin: 8px 24px 0px 24px;
+    object-fit: cover;
+}
+.action-now{
+    flex: 1;
+    text-align: left;;
+}
+.action-now p{
+    margin: 5px 30px 30px 50px;
+    color: white;
+    opacity: .9;
+}
+.sign-up button {
+    color: white;
+    font-family: 'roboto';
+    border-color: white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 7px 25px;
+    font-size: 15px;
+}
+h2{
+    padding: 0px;
+    color: white;
+    margin: 30px 0px 0px 50px
+    font-family: 'roboto'
+}
+.footer{
+    color: white;
+    backgrund-color: #1F2937;
+    font-family: 'roboto'
 }
