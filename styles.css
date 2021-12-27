@@ -1,167 +1,154 @@
+body{
+    text-align: center;
+    font-family: 'roboto';
+    margin: 0px;
+    background-color: #FFFFFF;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.pup{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+.aussie-logo img{
+    width: 87px;
+    margin-right: auto;
+    height: 87px;
+}
 .flex-container{
     display: flex;
     padding: 0px 100px 0px 0px;
     margin-left: auto;
-    gap: 5px;
-    color: #E5E7EB;
+  flex-row: row wrap;
+}
+.flex-container div{
+    color:#E5E7EB;
+    font-size: 18px;
     text-decoration: none;
     padding: 10px;
-    font-size: 18px;
     font-family: 'roboto';
-}
-  
-
-.action{
-    background-color: #3882f6;
-    margin: 75px;
-    text-align: center;
-    color: white;
-    width: 900px;
-    padding: 10px;
-    justify-content: space-between;
-    
-}
-.aussie-logo{
-    margin-right: auto
-    width: 90px;
-    heaight: 90px;
-}
-.container{
-    flex-direction: column;
-    display: flex;
 }
 .aussie{
     display: flex;
-    background-color: #1F2937;
-    justify-content:center
     align-items: center;
+    background-color: #1f2937;
     color: #f9faf8;
-    padding: 100px;
-}
-.pup{
-    display: flex;
-    background-color: #1F2937;
-    color: #f9faf8;
-    align-items: center;
-    padding: 20px 0px 20px 100px;
+    padding: 90px;
+    justify-content: center;
 
-}
-
-.buttons{
-    display: flex;
-    justify-content: ;
-    align-items: center;
 }
 .aussie-1{
     display: flex;
-    margin-right: 50px;
     flex-direction: column;
-    flex-basis: 450px;
-    text-align: left;
-    font-family: 'roboto';
-    opacity: 0.9;
-
+    flex-basis: 400px;
+    margin-right: 50px;
+    text-align:left;
 }
-.join-section{
-    display: flex;
-    background-color: #3882f6
-    align-items: center;
-    margin: 128px auto;
-    max-width: 1100px;
-
-}
-.buttons{
-    flex-shrink: 0;
-}
-.aussie button{
-    display:block;
-    border: none;
-    text-align: center;
-    background: #3882f6;
-    width: 115px;
-    border-radius: 10px;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'roboto';
-    color: white;
-}
-body{
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    font-family: 'roboto';
-    background-color: white;
-}
-.quote q {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: lighter;
-    font-style: italic;
-    font-family: 'roboto'
-}
-.quote p {
-    padding-bottom: 23px;
-    padding-right: 13px;
-    text-align: right;
-    font-family: 'roboto'
+.aussie-1 p {
+    opacity: 0.7;
+font-family: 'Roboto';
 }
 h1{
-    font-weight: bold;
-    font-size: 48px;
     margin: 0px;
+    font-family: 'roboto'
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.aussie button{
+    display: block;
+    border-radius: 8px;
+    font-weight: bold;
     font-family: 'roboto';
-    color: #f9faf8;
+    background: #3882f6;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    width: 110px;
 }
 .title{
     align-items: center;
 }
-.action{
-    display: flex;
-    background-color: #3882f6;
-    padding: 14px 83px;
-    border-radius: 7px;
-    margin: 50px 200px;
-    align-items: center
-    border-color: none
-    border-radius: 7px;
-
-}
 .title-stuff{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
-    border: 6px solod #3882f6;
-    border-radius: 20px;
-    magin: 8px 24px 0px 24px;
+    justify-content: center;
+}
+.title-stuff img{
     object-fit: cover;
+    margin: 5px 20px 0px 20px;
+    border-radius: 15px;
+    border-radius: 15px;
+    border: 4px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    flex-flow: row wrap;
+}
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+    flex-direction: column;
+    
+}
+.quote q{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'roboto'
+}
+.quote p{
+    padding-right: 10px;
+    text-align: right;
+    padding-bottom: 20px;
+    font-family: 'roboto'
+}
+.action{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px 200px;
+    border-color: none;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 80px;
 }
 .action-now{
     flex: 1;
-    text-align: left;;
+    text-align: left;
 }
 .action-now p{
+    opacity: 0.7;
     margin: 5px 30px 30px 50px;
-    color: white;
-    opacity: .9;
-}
-.sign-up button {
-    color: white;
-    font-family: 'roboto';
-    border-color: white;
-    border-radius: 10px;
-    background-color: #3882f6;
-    padding: 7px 25px;
-    font-size: 15px;
+    color: #FFF;
 }
 h2{
-    padding: 0px;
-    color: white;
+    color: FFF;
+    padding 0px;
+    font-family: 'roboto'
     margin: 30px 0px 0px 50px
+}
+.sign-up buttons{
+    border-color: #fff;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 25px;
+    background-color: #3882f6;
     font-family: 'roboto'
 }
 .footer{
-    color: white;
-    backgrund-color: #1F2937;
+    color: #fff;
+    background-color: #1f2937;
     font-family: 'roboto'
 }
